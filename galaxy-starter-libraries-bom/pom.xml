@@ -1,0 +1,74 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.GalaxyTraining</groupId>
+    <artifactId>galaxy-starter-libraries-bom</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>Galaxy Training – Starter Libraries BOM</name>
+    <description>Bill of Materials (BOM) for Galaxy Training starter and utility libraries</description>
+    <url>https://github.com/GalaxyTraining/galaxy-starter-libraries-bom</url>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>anovoa</id>
+            <name>Arístides Novoa Arbildo</name>
+            <email>anovoa@galaxy.edu.pe</email>
+            <organization>Galaxy Training</organization>
+            <organizationUrl>https://appgalaxy.com.pe</organizationUrl>
+            <roles>
+                <role>author</role>
+                <role>maintainer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <!-- Core library -->
+			<!--
+            <dependency>
+                <groupId>com.github.GalaxyTraining</groupId>
+                <artifactId>galaxy-library-utils</artifactId>
+                <version>1.0.1</version>
+            </dependency>
+			-->
+            <!-- Starter libraries -->
+ 		<dependency>
+			<groupId>com.github.GalaxyTrainingPublic</groupId>
+			<artifactId>galaxy-started-library-utils</artifactId>
+			<version>v1.0.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.GalaxyTrainingPublic</groupId>
+			<artifactId>galaxy-started-library-security</artifactId>
+			<version>v1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.GalaxyTrainingPublic</groupId>
+			<artifactId>galaxy-started-library-architecture</artifactId>
+			<version>v1.0.1</version>
+		</dependency>
+		<!--
+            <dependency>
+                <groupId>com.github.GalaxyTraining</groupId>
+                <artifactId>galaxy-started-library-apis</artifactId>
+                <version>1.0.1</version>
+            </dependency>
+		-->
+        </dependencies>
+    </dependencyManagement>
+
+</project>
