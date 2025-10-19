@@ -4,9 +4,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.GalaxyTraining</groupId>
+    <groupId>com.github.GalaxyTrainingPublic</groupId>
     <artifactId>galaxy-starter-libraries-bom</artifactId>
-    <version>v1.0.0</version>
+    <version>v1.0.3</version>
     <packaging>pom</packaging>
 
     <name>Galaxy Training – Starter Libraries BOM</name>
